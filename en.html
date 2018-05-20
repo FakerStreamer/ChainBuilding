@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>ChainBuilding</title>	
+</head>    
+
+
+
+<body>		
+
+	<div class="content">		
+		<div class="logo"><img src="img/logo.png" alt=""></div>
+		<div class="buttons">
+			<a href="game_en.html"><button class="play">Play</button></a>
+			<a href="#ranking" class="popup"><button class="ranking">Ranking</button></a>
+		</div>
+		<div class="nav">
+			<a href="index.html" class="lang">中文</a>
+			<a href="#contacts" class="popup">contacts</a>
+		</div>
+	</div>
+
+	<div id="ranking" class="mfp-fade mfp-hide">
+		<h1>Ranking</h1>
+		<ul class="headers">
+			<li>
+				<span class="name">Player</span>
+				</span><span class="result">Score</span>
+			</li> 
+		</ul>			
+		<ul class="values">	 					
+		</ul>		
+	</div>
+	<div id="contacts" class="mfp-fade mfp-hide">
+		<h1>Contacts</h1>
+		<a href="mailto:fakerzas91@gmail.com">fakerzas91@gmail.com</a>
+	</div>
+	<div class="noExtension" style="display: none"> 
+		NOTE: Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use ChainBuilding or try CTRL+F5
+	</div>
+	<div class="errNetwork" style="display: none">
+		NOTE: Sorry, you use incorrect net
+	</div>	
+	
+	<script src='lib/jquery-3.3.1.min.js'></script>
+	<link rel="stylesheet" href="lib/main.css">	
+    <script src='lib/nebPay.js'></script>
+    <script scr='lib/three.min.js'></script>    	
+    <script src="lib/common.js"></script>
+    <script src='lib/jquery.magnific-popup.js'></script> 	
+    <link rel="stylesheet" href="lib/magnific-popup.css">    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">    
+    <script>
+	    $('.popup').magnificPopup({
+		    type:'inline',
+		    fixedContentPos: true, 
+		    mainClass: 'mfp-fade',      
+		    showCloseBtn: true,
+		    closeOnBgClick: true
+		  });   
+	</script>
+</body>
+</html>

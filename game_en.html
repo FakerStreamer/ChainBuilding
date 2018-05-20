@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+	<meta http-equiv="Pragma" content="no-cache">
+	<title>ChainBuilding</title>	
+</head>    
+
+
+
+<body>			
+	<div id="container">				
+		<div id="game">
+			<a class="arrow_back" href="en.html">
+			back
+		</a>
+		</div>
+		<div id="score">0</div>
+		<div id="instructions">Click (or press the spacebar) to place the block</div>
+		<div class="game-over">
+			<h2>Game Over</h2>
+			<input type="text" class="name_rank" placeholder="name">
+			<button class="inrank">Add to ranking</button>
+			<p>Spacebar to start again</p>
+		</div>
+		<div class="game-ready">
+			<div id="start-button">Start</div>			
+			<div></div>
+		</div>
+	</div>
+
+	<div class="noExtension" style="display: none"> 
+		NOTE: Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use ChainBuilding or try CTRL+F5
+	</div>
+	<div class="errNetwork" style="display: none">
+		NOTE: Sorry, you use incorrect net
+	</div>	
+	
+	<script src='lib/jquery-3.3.1.min.js'></script>
+	<link rel="stylesheet" href="lib/main.css">	
+    <script src='lib/nebPay.js'></script>
+    <script scr='lib/three.min.js'></script>    	
+    <script src="lib/common.js"></script>
+    <script src='lib/jquery.magnific-popup.js'></script> 	
+    <link rel="stylesheet" href="lib/magnific-popup.css">    
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">    
+   <!--  <script>
+	    $('.popup').magnificPopup({
+		    type:'inline',
+		    fixedContentPos: true, 
+		    mainClass: 'mfp-fade',      
+		    showCloseBtn: true,
+		    closeOnBgClick: true
+		  });   
+	</script> -->
+</body>
+</html>

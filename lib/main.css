@@ -286,3 +286,47 @@ li {
 .nav a {
   margin-right: 15px;
 }
+
+
+#transaction {
+  background: #d0cbc7;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+}
+
+#transaction img, p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#transaction img {
+  width: 80px;
+}
+
+#transaction p {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+#transaction button {
+  opacity: 0;
+  width: 0.001px;
+}
+
+.hash {
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  margin-left: 0px;
+}
+
+.hash p {
+  position: relative;
+  width: 300px;
+  position: absolute;
+  left: 190px;
+  top: -19px;
+}

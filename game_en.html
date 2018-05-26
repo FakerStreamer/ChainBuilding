@@ -52,7 +52,20 @@
 	<div class="errNetwork" style="display: none">
 		NOTE: Sorry, you use incorrect net
 	</div>	
-	
+
+	<a href="#ranking" class="popup" style="opacity: 0; width: 0.00001; position: absolute; top: 0; left: -999px"><button class="ranking">Ranking</button></a>
+	<div id="ranking" class="mfp-fade mfp-hide">
+		<h1>Ranking</h1>
+		<ul class="headers">
+			<li>
+				<span class="name">Player</span>
+				</span><span class="result">Score</span>
+			</li> 
+		</ul>			
+		<ul class="values">	 					
+		</ul>		
+	</div>
+
 	<script src='lib/jquery-3.3.1.min.js'></script>
 	<link rel="stylesheet" href="lib/main.css">	
     <script src='lib/nebPay.js'></script>
@@ -68,7 +81,14 @@
 		    mainClass: 'mfp-fade',      
 		    showCloseBtn: true,
 		    closeOnBgClick: true
-		  });   
+		  });
+		  $('.popup').magnificPopup({
+		    type:'inline',
+		    fixedContentPos: true, 
+		    mainClass: 'mfp-fade',      
+		    showCloseBtn: true,
+		    closeOnBgClick: true
+		  });      
 	</script>
 </body>
 </html>

@@ -45,6 +45,12 @@
 	<div class="errNetwork" style="display: none">
 		注意：对不起，您使用不正确的网络
 	</div>	
+	<a href="#transaction" class="transaction" style="position: absolute; width: 0.1px; opacity: .1"></a>	
+	<div id="transaction" class="mfp-hide mfp-fade">
+		<p>Transaction is pending</p>
+		<img src="img/pending.gif" alt="">
+		<div class="hash"></div>	
+	</div>
 	
 	<script src='lib/jquery-3.3.1.min.js'></script>
 	<link rel="stylesheet" href="lib/main.css">	
@@ -54,14 +60,14 @@
     <script src='lib/jquery.magnific-popup.js'></script> 	
     <link rel="stylesheet" href="lib/magnific-popup.css">    
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">    
-   <!--  <script>
-	    $('.popup').magnificPopup({
+    <script>
+	    $('.transaction').magnificPopup({
 		    type:'inline',
 		    fixedContentPos: true, 
 		    mainClass: 'mfp-fade',      
 		    showCloseBtn: true,
 		    closeOnBgClick: true
-		  });   
-	</script> -->
+		  });  
+	</script>
 </body>
 </html>

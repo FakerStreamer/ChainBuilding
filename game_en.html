@@ -39,6 +39,13 @@
 		</div>
 	</div>
 
+	<a href="#transaction" class="transaction" style="position: absolute; width: 0.1px; opacity: .1"></a>	
+	<div id="transaction" class="mfp-hide mfp-fade">
+		<p>Transaction is pending</p>
+		<img src="img/pending.gif" alt="">
+		<div class="hash"></div>	
+	</div>
+	
 	<div class="noExtension" style="display: none"> 
 		NOTE: Please install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use ChainBuilding or try CTRL+F5
 	</div>
@@ -54,14 +61,14 @@
     <script src='lib/jquery.magnific-popup.js'></script> 	
     <link rel="stylesheet" href="lib/magnific-popup.css">    
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">    
-   <!--  <script>
-	    $('.popup').magnificPopup({
+    <script>
+	    $('.transaction').magnificPopup({
 		    type:'inline',
 		    fixedContentPos: true, 
 		    mainClass: 'mfp-fade',      
 		    showCloseBtn: true,
 		    closeOnBgClick: true
 		  });   
-	</script> -->
+	</script>
 </body>
 </html>
